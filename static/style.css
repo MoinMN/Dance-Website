@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(255, 113, 113);
+    padding: 35px 10px;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 10px;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+#navbar li a:hover{
+    color: gray;
+}
+
+#introSection{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Sevillana', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: url('../static/img/dance-bg.jpg') no-repeat center center/cover;
+    height: 654px;
+}
+
+#introSection div.small{
+    font-size: 1.5rem;
+}
+
+#missionSection{    
+    height: 400px;
+    background-color: rgb(255, 240, 240);
+}
+
+#missionSection h2, #sponsorsSection h2{    
+    font-size: 32px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.card{
+    color: white;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    margin: 25px;
+    height: 270px;
+    box-shadow: 4px 4px 12px black;
+}
+
+.card h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+#card1{
+    background: url('../static/img/mission-img\ \(3\).jpg') no-repeat center center/cover;
+}
+
+#card2{
+    background: url('../static/img/mission-img\ \(1\).jpg') no-repeat center center/cover;
+}
+
+#card3{
+    background: url('../static/img/mission-img\ \(2\).jpg') no-repeat center center/cover;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(255, 146, 146);
+}
+
+#sponsors{
+    margin: auto 20px;
+}
+
+#sponsors img{
+    width: 300px;
+    height: 210px;
+    margin: 20px 80px;
+}
+
+#footer{
+    color: white;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+}
+
+#footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+}

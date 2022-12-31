@@ -1,0 +1,39 @@
+.container{
+    min-height: 74vh;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myInput{
+    margin: 8px 9px;
+    display: block;
+    width: 450px;
+    padding: 8px 6px;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn{
+    padding: 8px 10px;
+    margin: 8px 5px;
+    border-radius: 12px;
+    background-color: rgb(255, 102, 102);
+}
+
+.btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
